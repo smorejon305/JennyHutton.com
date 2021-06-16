@@ -12,6 +12,7 @@ font-family: 'Fira Sans', sans-serif;
 
 */
 .page {
+  margin: 0 auto;
   max-width: 100%;
   height: auto;
 }
