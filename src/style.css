@@ -1,0 +1,43 @@
+/*color palette
+dark blue: #12215b
+darker blue: #050d33
+almost black: #04040a
+
+gold lettering: #E6AC00
+
+*/
+
+/* Font Family
+font-family: 'Fira Sans', sans-serif;
+
+*/
+
+body {
+  background-color: #04040a;
+}
+
+h1 {
+  color: whitesmoke;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 10rem;
+  font-weight: 200;
+  text-align: center;
+}
+
+.mainPhoto {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel slide {
+  max-width: 100%;
+}
+
+.aboutMe {
+  color: whitesmoke;
+  font-family: "Fira Sans", sans-serif;
+  margin-left: 10rem;
+  max-width: 60%;
+}
