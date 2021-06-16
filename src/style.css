@@ -11,6 +11,10 @@ gold lettering: #E6AC00
 font-family: 'Fira Sans', sans-serif;
 
 */
+.page {
+  max-width: 100%;
+  height: auto;
+}
 
 body {
   background-color: #04040a;
