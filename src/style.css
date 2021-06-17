@@ -34,6 +34,11 @@ h1 {
   margin: 0 auto;
   max-width: 100%;
   height: auto;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .carousel slide {
@@ -43,6 +48,8 @@ h1 {
 .aboutMe {
   color: whitesmoke;
   font-family: "Fira Sans", sans-serif;
-  margin-left: 10rem;
+  font-size: 2rem;
+  margin-top: 4rem;
   max-width: 60%;
+  text-align: center;
 }
