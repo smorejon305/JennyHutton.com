@@ -15,19 +15,18 @@ font-family: "Fira Sans", sans-serif;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-}
-.page {
-}
-
-body {
-  background-image: url("../src/media/IMG_7971.JPG");
-  background-color: black;
-  background-size: 90%;
-  background-repeat: no-repeat;
-  background-position: center;
-  align-items: 100vh;
+  font-size: 16px; 
 }
 
+
+.heroImage {
+background-image: url("../src/media/IMG_7971.JPG"); 
+background-position:center;  
+background-repeat: no-repeat; 
+position: relative; 
+object-fit: cover; 
+
+}
 h1 {
   color: whitesmoke;
   font-family: "Fira Sans", sans-serif;
@@ -35,18 +34,10 @@ h1 {
   font-weight: 100;
   line-height: 5em; 
   text-align: left;
-  mar
+  
 }
 
-/* MOBILE */
-@media (min-width: 320px) {
-  body {
-    background-image: url("../src/media/IMG_7971.JPG");
-    background-color: black;
-    background-size: 90%;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+
 
   /* TABLET */
   @media(min-width: 768px) {
