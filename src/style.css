@@ -8,8 +8,13 @@ gold lettering: #E6AC00
 */
 
 /* Font Family
-font-family: "Fira Sans", sans-serif;
+font-family: 
 */
+:root {
+--ff-primary: "Fira Sans", sans-serif;
+
+}
+
 
 * {
   margin: 0px;
