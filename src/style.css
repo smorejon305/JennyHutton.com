@@ -11,73 +11,82 @@ gold lettering: #E6AC00
 font-family: 
 */
 :root {
---ff-primary: "Fira Sans", sans-serif;
-
+  --ff-primary: "Fira Sans", sans-serif;
 }
-
 
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-size: 16px; 
+}
+
+body {
+  background-color: #000;
+  font-size: 16px;
 }
 
 
-.heroImage {
-background-image: url("../src/media/IMG_7971.JPG"); 
-background-position:center;  
-background-repeat: no-repeat; 
-position: relative; 
-object-fit: cover; 
 
+.mainImage {
+  display: block;
+  margin: 0 auto;
+  overflow-x: hidden;
+  max-height: 100vh;
+  z-index: 2;
 }
-h1 {
+
+.mainTitle {
   color: whitesmoke;
   font-family: "Fira Sans", sans-serif;
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 100;
-  line-height: 5em; 
-  text-align: left;
-  
+  position: fixed;
+  left: 24px;
+  top: 5px;
+  z-index: 1;
 }
 
+/* MEDIA  QUERIES */
 
+/* TABLET */
+@media screen and (min-width: 768px) {
+.mainImage {
+  display: block;
+  margin: 0 auto;
+  overflow-x: hidden;
+  max-height: 100vh;
+  z-index: 2;
+}
 
-  /* TABLET */
-  @media(min-width: 768px) {
-
-    h1 {
+.mainTitle {
   color: whitesmoke;
   font-family: "Fira Sans", sans-serif;
-  font-size: 8em;
+  font-size: 3em;
   font-weight: 100;
-  text-align: center;
+  position: fixed;
+  left: 24px;
+  top: 5px;
+  z-index: 1;
 }
-  }
 
-  @media (min-width:1024px) {
+/* Laptop & Desktop */
 
-    h1 {
-  color: whitesmoke;
-  font-family: "Fira Sans", sans-serif;
-  font-size: 10em;
-  font-weight: 100;
-  text-align: center;
-}
-  }
-
+@media (min-width: 1024px) {
   h1 {
     color: whitesmoke;
     font-family: "Fira Sans", sans-serif;
-    font-size: 4.5em
+    font-size: 10em;
     font-weight: 100;
     text-align: center;
   }
 }
 
-.carousel slide {
-  max-width: 100%;
+h1 {
+  color: whitesmoke;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 4.5em;
+  font-weight: 100;
+  text-align: center;
 }
 
 .aboutMe {
