@@ -1,15 +1,4 @@
-/*color palette
-dark blue: #12215b
-darker blue: #050d33
-almost black: #04040a
 
-gold lettering: #E6AC00
-
-*/
-
-/* Font Family
-font-family: 
-*/
 :root {
   --ff-primary: "Fira Sans", sans-serif;
 }
@@ -44,6 +33,16 @@ body {
   left: 24px;
   top: 5px;
   z-index: 1;
+}
+
+.aboutMe {
+  color: whitesmoke; 
+  margin-top: 4em; 
+}
+
+.pastWork {
+  margin: 5px 5px; 
+
 }
 
 /* MEDIA  QUERIES */
