@@ -37,8 +37,16 @@ body {
 
 /* NAVBAR */
 
-nav {
-  display: flexbox; 
+.navBar {
+
+}
+
+
+
+.navLink {
+  display:inline; 
+  font-family: var(--ff-primary); 
+  justify-content: space-around; 
 }
 
 
